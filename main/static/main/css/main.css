@@ -1,0 +1,21 @@
+body {
+    background-color: #DCB276;
+}
+
+.btn:hover {
+    color: #ffbf00; 
+     }
+
+.btn{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+
+.btn2:hover {
+    color: #ffbf00;
+}
+
+.btn2{
+    color: black;
+}

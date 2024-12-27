@@ -1,0 +1,21 @@
+{% extends "main/layout4.html" %}
+{%  load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="{% static "main/css/main2.css" %}">
+</head>
+{% block content %}
+<div class='alert alert-worning2'>
+    <h2>{{ article.title }}</h2>
+    <p2>{{ article.descriptions }}</p2><br>
+    <p3>Время готовки: {{ article.time }}</p3><br>
+    <h2>ингредиенты:</h2>
+    <p3>{{ article.products }}</p3><br>
+    <h2>Рецепт:</h2>
+    <p3>{{ article.cooking }}</p3><br>
+</div>
+{% endblock %}

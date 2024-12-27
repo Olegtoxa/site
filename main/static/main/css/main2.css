@@ -1,0 +1,75 @@
+body {
+    background-color: #DCB276;
+}
+
+.btn:hover {
+    color: #ffbf00; 
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btn2:hover {
+    color: #ffbf00;
+}
+
+.btn2{
+    color: black;
+    white-space: nowrap;
+}
+
+main .features h3 {font-size: 500px; }
+
+.alert-worning{
+    width: 777px;
+    height: 170px;
+    position: absolute;
+    margin: 245px 525px;
+    text-align: center;
+    background: #CC8E38;
+    border: 1px black solid;
+}
+
+form {
+    width: 1100px;
+    margin: 250px 350px;
+    position: absolute;
+}
+
+.btn3:hover {
+    color: #ffbf00; 
+}
+
+.btn3{
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+p2{
+    position: central;
+    font-size: 150%
+}
+
+p3{
+    position: central;
+    font-size: 125%
+}
+
+h2{
+    position: central; 
+}
+
+.alert-worning2{
+    width: 800px;
+    height: 1700px;
+    position: absolute;
+    margin: 245px 525px;
+    text-align: center;
+    background: #CC8E38;
+    border: 1px black solid;
+}

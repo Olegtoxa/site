@@ -1,0 +1,50 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Delicious fantasy</title>
+    <link rel="stylesheet" href="{% static "main/css/main2.css" %}">
+</head>
+<body>
+    <div style="width: 100%; height: 100%; position: relative; background: #DCB276">
+        <img style="width: 300px; height: 150px; left: 37px; top: 17px; position: absolute; border-radius: 104px" img src='{% static "main/img/logo.jpg" %}' />
+        <div style="left: 774px; top: 167px; position: absolute; color: black; font-size: 48px; font-family: Inter; font-weight: 400; word-wrap: break-word">Русская кухня  </div>
+        <div style="width: 777px; height: 150px; left: 524px; top: 242px; position: absolute">
+            <div style="width: 777px; height: 149px; left: 0px; top: 1px; position: absolute; background: #CC8E38; border: 1px black solid"></div>
+            <img style="width: 300px; height: 150px; left: 0px; top: 1px; position: absolute" img src='{% static "main/img/borsch.jpg" %}' />
+            <div style="left: 300px; top: 22px; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">Вкусный суп на всегда из легких ингредиентов </div>
+            <div style="left: 518px; top: 1px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">Борщ</div>
+            <img style="width: 30px; height: 30px; left: 309px; top: 120px; position: absolute" img src='{% static "main/img/black_like.png" %}' />
+            <div style="left: 685px; top: 124px; position: absolute; color: black; font-size: 20px; font-family: JetBrains Mono; font-weight: 800; word-wrap: break-word">перейти</div>
+        </div>
+        <div style="width: 409px; height: 543px; left: 8px; top: 187px; position: absolute">
+            <div style="width: 354px; height: 405px; left: 0px; top: 0px; position: absolute; background: #CC8E38"></div>
+            <div style="left: 40px; top: 19px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты первых блюд</div>
+            <div style="left: 50px; top: 131px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты маринадов</div>
+            <div style="left: 40px; top: 75px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты вторых блюд</div>
+            <div style="left: 66px; top: 181px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты приправ</div>
+            <div style="left: 70px; top: 237px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты закусок </div>
+            <div style="left: 60px; top: 293px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты десертов </div>
+            <div style="width: 408px; height: 194px; left: 30px; top: 349px; position: absolute; color: white; font-size: 30px; font-family: Inter; font-weight: 400; word-wrap: break-word">Рецепты блюд из теста </div>
+        </div>
+        <div style="width: 1215px; height: 150px; left: 352px; top: 4px; position: absolute">
+            <div style="width: 1215px; height: 150px; left: 0px; top: 0px; position: absolute; background: #CC8E38; border: 1px black solid"></div>
+            <div style="width: 900px; height: 45px; left: 106px; top: 10px; position: absolute">
+                <div style="width: 899.54px; height: 44.22px; left: 0px; top: 0.39px; position: absolute; background: white; border: 1px black solid"></div>
+                <img style="width: 55.27px; height: 45px; left: 844.73px; top: 0px; position: absolute" img src='{% static "main/img/magnifier.png" %}' />
+            </div>
+            <div style="width: 283px; height: 47px; left: 497px; top: 80px; position: absolute; color: black; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">Понравилось</div>
+            <div style="left: 817px; top: 80px; position: absolute; color: black; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">Главное </div>
+        <div style="width: 138px; height: 47px; left: 348px; top: 77px; position: absolute; color: black; font-size: 40px; font-family: Inter; font-weight: 700; text-decoration: underline; word-wrap: break-word">Кухни</div>
+        <div style="width: 383px; left: 34px; top: 77px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word"> Рецепты</div>
+        <div style="width: 100px; height: 50px; left: 1066px; top: 50px; position: absolute">
+            <div style="width: 100px; height: 50px; left: 0px; top: 0px; position: absolute; background: #DCB276; border: 1px black solid"></div>
+            <div style="left: 26px; top: 15px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word"><a class="btn" href= {% url "reg" %}>Вход</a></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

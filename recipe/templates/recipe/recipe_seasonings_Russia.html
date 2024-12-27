@@ -1,0 +1,20 @@
+{% extends "main/layout6.html" %}
+{%  load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="{% static "main/css/main2.css" %}">
+</head>
+{% block content %}
+    {% for el in recipe %}
+    <div class='alert alert-worning'>
+        <h3>{{ el.title }}</h3>
+        <p>{{ el.descriptions }}<p>
+        <a href ='{% url 'recipe-detail' el.id %}' class="btn btn-success">Перейти</a>
+        <img class='photo'src="{{ el.photo.urls }}">
+    </div>
+    {% endfor %}
+{% endblock %}
